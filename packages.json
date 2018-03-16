@@ -2197,7 +2197,7 @@
       "tagged"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
-    "version": "v0.16.0"
+    "version": "v0.16.1"
   },
   "websocket-simple": {
     "dependencies": [
