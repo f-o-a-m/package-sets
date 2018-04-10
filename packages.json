@@ -2210,6 +2210,15 @@
     "repo": "https://github.com/zudov/purescript-websocket-simple.git",
     "version": "v2.0.0"
   },
+  "webstorage": {
+    "dependencies": [
+      "eff",
+      "functions",
+      "maybe"
+    ],
+    "repo": "git://github.com/joneshf/purescript-webstorage.git",
+    "version": "v4.0.0"
+  },
   "word": {
     "dependencies": [
       "prelude",
