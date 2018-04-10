@@ -14,7 +14,7 @@
       "avar"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "aff-bus": {
     "dependencies": [
