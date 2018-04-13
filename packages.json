@@ -22,7 +22,7 @@
       "prelude"
     ],
     "repo": "https://github.com/slamdata/purescript-aff-bus.git",
-    "version": "v3.0.1"
+    "version": "v3.1.0"
   },
   "aff-coroutines": {
     "dependencies": [
@@ -2058,7 +2058,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v2.4.0"
+    "version": "v2.6.0"
   },
   "uint": {
     "dependencies": [
