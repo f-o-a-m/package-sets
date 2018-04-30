@@ -1331,6 +1331,14 @@
     "repo": "https://github.com/purescript/purescript-monoid.git",
     "version": "v3.3.0"
   },
+  "mote": {
+    "dependencies": [
+      "these",
+      "transformers"
+    ],
+    "repo": "https://github.com/garyb/purescript-mote.git",
+    "version": "v0.2.0"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
