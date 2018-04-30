@@ -1891,6 +1891,15 @@
     "repo": "https://github.com/purescript/purescript-record.git",
     "version": "v0.2.6"
   },
+  "record-extra": {
+    "dependencies": [
+      "typelevel-prelude",
+      "record",
+      "lists"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-record-extra.git",
+    "version": "v0.3.0"
+  },
   "record-fold": {
     "dependencies": [
       "arrays",
