@@ -522,6 +522,21 @@
     "repo": "https://github.com/passy/purescript-errors.git",
     "version": "v3.0.0"
   },
+  "eth-core": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "modules",
+      "foreign",
+      "simple-json",
+      "sets",
+      "bytestrings",
+      "spec",
+      "debug"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-eth-core.git",
+    "version": "v0.0.1"
+  },
   "exceptions": {
     "dependencies": [
       "eff",
