@@ -810,6 +810,18 @@
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
     "version": "v5.4.0"
   },
+  "geohash": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "strings",
+      "maybe",
+      "bytestrings",
+      "eth-core"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-geohash.git",
+    "version": "
+  },
   "globals": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-globals.git",
