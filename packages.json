@@ -2095,6 +2095,25 @@
     "repo": "https://github.com/purescript/purescript-transformers.git",
     "version": "v3.6.0"
   },
+  "chanterelle": {
+    "dependencies": [
+      "prelude",
+      "web3",
+      "web3-generator",
+      "js-date",
+      "console",
+      "errors",
+      "node-process",
+      "debug",
+      "mkdirp",
+      "logging",
+      "now",
+      "validation",
+      "random"
+    ],
+    "repo": "https://github.com/f-o-a-m/chanterelle.git",
+    "version": "master"
+  },
   "tuples": {
     "dependencies": [
       "foldable-traversable",
