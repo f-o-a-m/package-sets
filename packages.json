@@ -24,6 +24,20 @@
     "repo": "https://github.com/slamdata/purescript-aff-bus.git",
     "version": "v3.1.0"
   },
+  "logging":{
+    "dependencies": [
+      "prelude",
+      "contravariant",
+      "monoid",
+      "console",
+      "eff",
+      "transformers",
+      "tuples",
+      "either"
+    ],
+    "repo": "https://github.com/rightfold/purescript-logging.git",
+    "version": "v2.0.0"
+  },
   "mkdirp": {
     "dependencies": [
       "prelude",
