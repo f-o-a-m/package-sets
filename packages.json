@@ -24,6 +24,21 @@
     "repo": "https://github.com/slamdata/purescript-aff-bus.git",
     "version": "v3.1.0"
   },
+  "eth-core": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "modules",
+      "foreign",
+      "simple-json",
+      "sets",
+      "bytestrings",
+      "spec",
+      "debug"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-eth-core.git",
+    "version": "v0.0.1"
+  },
   "logging":{
     "dependencies": [
       "prelude",
@@ -37,6 +52,18 @@
     ],
     "repo": "https://github.com/rightfold/purescript-logging.git",
     "version": "v2.0.0"
+  },
+  "geohash": {
+    "dependencies": [
+      "prelude",
+      "console",
+      "strings",
+      "maybe",
+      "bytestrings",
+      "eth-core"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-geohash.git",
+    "version": "master"
   },
   "mkdirp": {
     "dependencies": [
