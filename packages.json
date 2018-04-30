@@ -24,6 +24,14 @@
     "repo": "https://github.com/slamdata/purescript-aff-bus.git",
     "version": "v3.1.0"
   },
+  "mote": {
+    "dependencies": [
+      "these",
+      "transformers"
+    ],
+    "repo": "https://github.com/garyb/purescript-mote.git",
+    "version": "v0.2.0"
+  },
   "eth-core": {
     "dependencies": [
       "prelude",
@@ -2085,7 +2093,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-transformers.git",
-    "version": "v3.4.0"
+    "version": "v3.6.0"
   },
   "tuples": {
     "dependencies": [
