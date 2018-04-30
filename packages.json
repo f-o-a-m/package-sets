@@ -2306,6 +2306,53 @@
     "repo": "https://github.com/natefaubion/purescript-variant.git",
     "version": "v4.1.0"
   },
+  "web3": {
+    "dependencies": [
+      "prelude",
+      "errors",
+      "profunctor-lenses",
+      "foreign",
+      "foreign-generic",
+      "proxy",
+      "bytestrings",
+      "eth-core",
+      "partial",
+      "parsing",
+      "transformers",
+      "identity",
+      "aff",
+      "tagged",
+      "free",
+      "coroutines",
+      "typelevel-prelude",
+      "type-equality",
+      "modules",
+      "mmorph",
+      "simple-json"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-web3",
+    "version": "v0.22.0"
+  },
+  "web3-generator": {
+    "dependencies": [
+      "argonaut",
+      "argonaut-core",
+      "argonaut-generic-codecs",
+      "prelude",
+      "errors",
+      "yargs",
+      "ansi",
+      "node-fs-aff",
+      "console",
+      "string-parsers",
+      "web3",
+      "mkdirp",
+      "fixed-points",
+      "record-extra"
+    ],
+    "repo": "https://github.com/f-o-a-m/purescript-web3-generator.git",
+    "version": "v0.21.1"
+  },
   "webdriver": {
     "dependencies": [
       "aff",
