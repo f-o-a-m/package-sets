@@ -820,7 +820,7 @@
       "eth-core"
     ],
     "repo": "https://github.com/f-o-a-m/purescript-geohash.git",
-    "version": "
+    "version": "v0.1.0"
   },
   "globals": {
     "dependencies": [],
