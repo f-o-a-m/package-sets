@@ -1264,6 +1264,18 @@
     "repo": "https://github.com/paf31/purescript-minibench.git",
     "version": "v1.0.1"
   },
+  "mkdirp": {
+    "dependencies": [
+      "prelude",
+      "eff",
+      "node-fs",
+      "functions",
+      "nullable",
+      "either"
+    ],
+    "repo": "https://github.com/joshuahhh/purescript-mkdirp.git",
+    "version": "v0.3.0"
+  },
   "mmorph": {
     "dependencies": [
       "transformers",
