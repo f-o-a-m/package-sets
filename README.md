@@ -19,7 +19,13 @@ let additions = {=}
 in  (upstream // foamSpacePackages // overrides // additions)
 ```
 
-# What else?
+To validate use
+
+```sh
+dhall freeze --inplace ./packages.dhall
+```
+
+# Why this approach?
 
 This approach is used in https://github.com/srghma/my-purescript-package-sets
 
