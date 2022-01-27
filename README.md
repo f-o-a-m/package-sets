@@ -19,3 +19,19 @@ let additions = {=}
 in  (upstream // foamSpacePackages // overrides // additions)
 ```
 
+# What else?
+
+This approach is used in https://github.com/srghma/my-purescript-package-sets
+
+But here it's also possible to "override" packages from upstream
+
+Like this
+
+```dhall
+  ...
+ , node-http =
+    upstream.node-http
+    with repo = "https://github.com/srghma/purescript-node-http.git"
+    with version = "master"
+  ...
+```
