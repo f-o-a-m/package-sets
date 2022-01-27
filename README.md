@@ -25,7 +25,7 @@ This approach is used in https://github.com/srghma/my-purescript-package-sets
 
 But here it's also possible to "override" packages from upstream
 
-Like this
+Like this https://github.com/srghma/my-purescript-package-sets/blob/00e26e6c2441de7fe27889d36435ba7ede2c39cc/packages.dhall#L160
 
 ```dhall
   ...
