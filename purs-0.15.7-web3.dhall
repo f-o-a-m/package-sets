@@ -1,5 +1,5 @@
 {-
-## NB: Dhall has some CORS nonsense that precludes this transitive import, so `upstream` is 
+## NB: Dhall has some CORS nonsense that precludes this transitive import, so `upstream` is
 ## is vendored in below
 
   let upstream =
@@ -2605,7 +2605,7 @@ let upstream =
   , js-bigints =
     { dependencies = [ "integers", "maybe", "prelude" ]
     , repo = "https://github.com/sigma-andex/purescript-js-bigints.git"
-    , version = "v2.0.0"
+    , version = "18dc9a101de22b38738802bacf90249f8d7be8bb"
     }
   , js-date =
     { dependencies =
@@ -5895,11 +5895,14 @@ let additions =
           , "foreign"
           , "functions"
           , "integers"
+          , "js-bigints"
           , "maybe"
+          , "newtype"
           , "node-buffer"
           , "ordered-collections"
           , "partial"
           , "prelude"
+          , "quickcheck"
           , "quotient"
           , "ring-modules"
           , "simple-json"
