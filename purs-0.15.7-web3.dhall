@@ -5882,8 +5882,7 @@ let additions =
           , "unfoldable"
           ]
         , repo = "https://github.com/f-o-a-m/purescript-web3"
-        -- , version = "__local_symlink__"
-        , version = "a8b6c220193483d186e3e8f6d382091dab7708cc"
+        , version = "eec25569b084750ec35c1f2fd7cb209ef15595a9"
         }
       , eth-core =
         { dependencies =
