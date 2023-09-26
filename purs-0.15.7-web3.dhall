@@ -2605,7 +2605,7 @@ let upstream =
   , js-bigints =
     { dependencies = [ "integers", "maybe", "prelude" ]
     , repo = "https://github.com/sigma-andex/purescript-js-bigints.git"
-    , version = "18dc9a101de22b38738802bacf90249f8d7be8bb"
+    , version = "v2.2.0"
     }
   , js-date =
     { dependencies =
