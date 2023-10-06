@@ -2605,7 +2605,7 @@ let upstream =
   , js-bigints =
     { dependencies = [ "integers", "maybe", "prelude" ]
     , repo = "https://github.com/sigma-andex/purescript-js-bigints.git"
-    , version = "v2.2.0"
+    , version = "v2.2.1"
     }
   , js-date =
     { dependencies =
@@ -5878,10 +5878,12 @@ let additions =
           , "tuples"
           , "typelevel-prelude"
           , "unfoldable"
+          , "unsafe-coerce"
           , "variant"
+          , "identity"
           ]
         , repo = "https://github.com/f-o-a-m/purescript-web3"
-        , version = "v6.2.0"
+        , version = "v7.0.0"
         }
       , eth-core =
         { dependencies =
