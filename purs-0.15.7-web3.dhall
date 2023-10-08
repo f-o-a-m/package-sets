@@ -5883,7 +5883,7 @@ let additions =
           , "identity"
           ]
         , repo = "https://github.com/f-o-a-m/purescript-web3"
-        , version = "v7.0.0"
+        , version = "v7.1.0"
         }
       , eth-core =
         { dependencies =
